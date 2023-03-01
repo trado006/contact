@@ -11,7 +11,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Trado006\\Contact\\ContactProvider"
+                "Trado006\\Contact\\Providers\\ContactProvider"
             ]
         }
     },
