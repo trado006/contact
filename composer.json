@@ -1,0 +1,25 @@
+{
+    "name": "trado006/contact",
+    "description": "This package will provide feature to submit message from user to admin",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Trado006\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Trado006\\Contact\\ContactProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "trado006"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
